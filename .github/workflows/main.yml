@@ -1,0 +1,9 @@
+name: Initial Workflow
+on: push
+
+jobs:
+  build:
+    name: First action
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v1
